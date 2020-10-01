@@ -1,5 +1,9 @@
-
+<html>
+       $ID = $_POST["IDnumber"];
+  
 <?php
+
+
 $host = 'hw3gustavo.database.windows.net';
 $username = 'tavoM17';
 $password = 'Mechanical17';
@@ -26,3 +30,4 @@ mysqli_stmt_close($stmt);
 // Close the connection
 mysqli_close($conn);
 ?>
+</html>
